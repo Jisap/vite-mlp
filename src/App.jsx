@@ -6,6 +6,7 @@ import Dishes from './components/Dishes'
 import About from './components/About'
 import Mission from './components/Mission'
 import Expertise from './components/Expertise'
+import Review from './components/Review'
 
 
 
@@ -21,6 +22,7 @@ function App() {
       <About />
       <Mission />
       <Expertise />
+      <Review />
     </main>
   )
 }

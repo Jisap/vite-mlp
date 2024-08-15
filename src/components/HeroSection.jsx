@@ -5,7 +5,7 @@ import hero from '../assets/hero.jpeg'
 
 const HeroSection = () => {
   return (
-    <section className="relative flex h-screen items-center justify-center">
+    <section className="relative flex h-screen items-center justify-center" id="hero">
       <div className="absolute inset-0 -z-20 h-full w-full overflow-hidden">
         <video 
           src={video}

@@ -26,7 +26,9 @@ import { fadeIn } from "../constants/variants"
 
 const Review = () => {
   return (
-    <section className="container mx-auto" id="review">
+    <section className="container mx-auto relative" id="review">
+
+      <div className="absolute w-96 h-96 bg-gradient-to-r from-gray-800/40 via-blue-900/20 to-purple-900/10 rounded-full blur-2xl top-0 left-0 transform -translate-x-1/2 -translate-y-1/2"></div>
       
       <div className="flex flex-col items-center justify-center mb-8 mt-20">
         <motion.h2

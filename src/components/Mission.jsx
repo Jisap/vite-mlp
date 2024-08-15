@@ -2,15 +2,21 @@ import missionImg from "../assets/mission.jpeg"
 import mission from "../assets/mission.mp4"
 import { MISSION } from "../constants"
 import { motion } from "framer-motion"
-
+import { fadeIn } from "../constants/variants"
 
 const Mission = () => {
   return (
     <section id="mission">
       <div className="container mx-auto text-center py-10">
-        <h2 className="mb-12 text-3xl lg:text-4xl">
+        <motion.h2 
+          variants={fadeIn("down", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.4 }}
+          className="mb-12 text-3xl lg:text-4xl"
+        >
           Our Mission
-        </h2>
+        </motion.h2>
         <div className="relative flex items-center justify-center">
           <motion.video 
             initial={{ opacity: 0 }}

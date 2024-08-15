@@ -1,8 +1,14 @@
-import React from 'react'
+import { motion } from 'framer-motion'
+import { fadeIn } from '../constants/variants'
 
 const DishCard = ({ project }) => {
   return (
-    <div>
+    <motion.div
+      variants={fadeIn("down", 0.2)}
+      initial="hidden"
+      whileInView={"show"}
+      viewport={{ once: false, amount: 0.4 }}
+    >
       <img 
         src={project.image} 
         alt={project.title}
@@ -16,7 +22,7 @@ const DishCard = ({ project }) => {
           {project.description}
         </p>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

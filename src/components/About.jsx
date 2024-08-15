@@ -16,17 +16,19 @@ const About = () => {
       >
         Sobre nosotros
       </motion.h2>
+
       <div className="flex flex-wrap">
-        <div className='w-full p-4 lg:w-1/2'>
+        <div className='w-full p-4 lg:w-1/2 lg:-rotate-3'>
           <motion.img
             variants={fadeIn("right", 0.2)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.4 }} 
             src={about}
-            className='rounded-3xl lg:-rotate-3'
+            className='rounded-3xl '
           />
         </div>
+
         <div className='w-full px-2 lg:w-1/2'>
           <motion.h2
             variants={fadeIn("left", 0.2)}
@@ -45,18 +47,14 @@ const About = () => {
               viewport={{ once: false, amount: 0.4 }}
               className='mb-8 mt-1 h-2 w-36 bg-rose-300'></motion.div>
           </div>
-          <motion.p 
-            // initial={{ opacity: 0, y: 50 }}
-            // whileInView={{ opacity: 1, y: 0 }}
-            // viewport={{ once: false }}
-            // transition={{ duration: 0.6, delay: 0.4 }} 
-            variants={fadeIn("left", 0.4)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
-            className='m-8 text-2xl leading-relaxed tracking-tight lg:max-w-xl'>
-            {ABOUT.content}
-          </motion.p>
+            <motion.p 
+              variants={fadeIn("left", 0.4)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.4 }}
+              className='m-8 text-2xl leading-relaxed tracking-tight lg:max-w-xl'>
+              {ABOUT.content}
+            </motion.p>
         </div>
       </div>
     </section>

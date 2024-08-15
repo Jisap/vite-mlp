@@ -30,7 +30,7 @@ const Expertise = () => {
         viewport={{ once: false, amount: 0.4 }}
         className='my-8 text-center text-3xl tracking-tighter lg:text-4xl'
       >
-        Our Expertise
+        Nuestras especialidades
       </motion.h2>
       <motion.div 
         // initial="hidden"

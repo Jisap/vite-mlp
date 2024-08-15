@@ -15,7 +15,7 @@ const Mission = () => {
           viewport={{ once: false, amount: 0.4 }}
           className="mb-12 text-3xl lg:text-4xl"
         >
-          Our Mission
+          Nuestra misión
         </motion.h2>
         <div className="relative flex items-center justify-center">
           <motion.video 

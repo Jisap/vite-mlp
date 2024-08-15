@@ -1,6 +1,6 @@
 import React from 'react'
-import video from '../assets/hero.mp4'
-import logo from '../assets/logo.png'
+import video from '../assets/hero2.mp4'
+import logo from '../assets/logoMLP.png'
 import hero from '../assets/hero.jpeg'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../constants/variants'

@@ -14,7 +14,7 @@ const About = () => {
         viewport={{ once: false, amount: 0.4 }}
         className="mb-12 text-center text-3xl tracking-tighter lg:text-4xl"
       >
-        About Us
+        Sobre nosotros
       </motion.h2>
       <div className="flex flex-wrap">
         <div className='w-full p-4 lg:w-1/2'>

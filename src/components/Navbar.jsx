@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '../assets/logo.png'
+import logo from '../assets/logoMLP.png'
 import { LINKS } from '../constants'
 import { FaTimes } from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
@@ -33,7 +33,7 @@ const Navbar = () => {
           href="#hero"
           onClick={(e) => handleScroll(e, "hero")}  
         >
-          <img src={logo} alt="logo" width={80} heigth={22} />
+          <img src={logo} alt="logo" width={120} heigth={40} />
         </a>
         
         <div className="hidden space-x-6 lg:flex">

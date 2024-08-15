@@ -79,13 +79,12 @@ export const DISHES = [
 ];
 
 export const ABOUT = {
-  header: "We love cooking!",
-  content:
-    "At Restaura, we believe that great food goes beyond taste; it tells a story of dedication and creativity. From our chef's signature creations to our attentive service, every detail is curated to ensure your visit is nothing short of exceptional. Whether you're savoring our renowned Tikka Kebab or exploring our diverse menu inspired by global flavors, each dish is a celebration of flavor and innovation. Join us for a culinary journey where every bite leaves a lasting impression. Experience Restaura—where every meal is a masterpiece.",
-};
+  header: "Nos apasiona cocinar",
+  content: "En Mesón Los Pérez, entendemos que una buena comida es más que un simple placer; es una expresión de pasión y arte. Desde las creaciones únicas de nuestro chef hasta el esmerado servicio que ofrecemos, cada aspecto está pensado para que su visita sea inolvidable. Ya sea que esté disfrutando de nuestra emblemática carne a la piedra o descubriendo nuestro menú diverso inspirado en cocinas de todo el mundo, cada plato celebra el sabor y la creatividad. Acompáñenos en un viaje gastronómico donde cada bocado cuenta una historia. Venga a Mesón Los Pérez, donde cada comida es un deleite incomparable."
+  };
 
 export const MISSION =
-  "At our restaurant, our mission is to create delicious and memorable dining experiences.";
+  "En nuestro restaurante, nuestra misión es ofrecer experiencias gastronómicas deliciosas e inolvidables."
 
 export const CUSINES = [
   {

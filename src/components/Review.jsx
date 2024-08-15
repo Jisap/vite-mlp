@@ -38,7 +38,7 @@ const Review = () => {
           viewport={{ once: false, amount: 0.2 }}
           className="mb-12 text-3xl lg:text-4xl justify-center"
         >
-          Review
+          Reseña
         </motion.h2>
         <motion.p 
           // variants={ItemVariants}

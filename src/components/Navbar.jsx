@@ -33,7 +33,7 @@ const Navbar = () => {
           href="#hero"
           onClick={(e) => handleScroll(e, "hero")}  
         >
-          <img src={logo} alt="logo" width={120} heigth={40} />
+          <img src={logo} alt="logo" width={140} heigth={60} />
         </a>
         
         <div className="hidden space-x-6 lg:flex">

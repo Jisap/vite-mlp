@@ -16,12 +16,12 @@ import indian from "../assets/indian.jpeg";
 import { FaXTwitter, FaFacebook, FaInstagram } from "react-icons/fa6";
 
 export const LINKS = [
-  { text: "Dishes", targetId: "dishes" },
-  { text: "About", targetId: "about" },
-  { text: "Mission", targetId: "mission" },
-  { text: "Expertise", targetId: "expertise" },
-  { text: "Review", targetId: "review" },
-  { text: "Contact", targetId: "contact" },
+  { text: "Platos", targetId: "dishes" },
+  { text: "Nosotros", targetId: "about" },
+  { text: "Misión", targetId: "mission" },
+  { text: "Especialidades", targetId: "expertise" },
+  { text: "Reseña", targetId: "review" },
+  { text: "Contacto", targetId: "contact" },
 ];
 
 export const DISHES = [
@@ -114,7 +114,7 @@ export const REVIEW = {
   name: "Xaviour Fernando",
   profession: "Food Critic",
   content:
-    "“As a seasoned food critic, my expectations are always high when stepping into a new dining establishment. Restaura, with its unassuming exterior and elegantly designed interior, promised a unique culinary experience from the moment I walked in. And I must say, it delivered beyond my expectations.”",
+    "“Como crítico gastronómico experimentado, mis expectativas son siempre altas al visitar un nuevo restaurante. Restaura, con su exterior discreto y su interior elegantemente decorado, prometía una experiencia culinaria única desde el momento en que crucé la puerta. Y debo decir que superó mis expectativas.”",
 };
 
 export const CONTACT = [

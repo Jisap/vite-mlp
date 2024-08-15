@@ -4,7 +4,9 @@ import logo from '../assets/logo.png'
 import hero from '../assets/hero.jpeg'
 import { motion } from 'framer-motion'
 
+
 const HeroSection = () => {
+  
   return (
     <section className="relative flex h-screen items-center justify-center" id="hero">
       <div className="absolute inset-0 -z-20 h-full w-full overflow-hidden">
@@ -23,9 +25,9 @@ const HeroSection = () => {
         <motion.img 
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 2 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: false, amount: 0.2 }}
+          viewport={{ once: false }}
           src={logo} 
           alt="mlp" 
           className="w-full p-4" 
